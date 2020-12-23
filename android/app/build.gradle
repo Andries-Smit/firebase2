@@ -1,4 +1,6 @@
 apply plugin: "com.android.application"
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
 
 import com.android.build.OutputFile
 
@@ -66,6 +68,9 @@ android {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            // firebaseCrashlytics {
+            //     nativeSymbolUploadEnabled true
+            // }
         }
     }
     // applicationVariants are e.g. debug, release
@@ -98,6 +103,8 @@ project.ext.vectoricons = [
 ]
 
 dependencies {
+    implementation project(':@react-native-firebase_crashlytics')
+    implementation project(':@react-native-firebase_app')
     implementation project(':react-native-splash-screen')
     implementation project(':react-native-code-push')
     implementation project(":mendixnative-release")
