@@ -1,6 +1,6 @@
 PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_IDENTIFIER)$(BUNDLE_IDENTIFIER_APPEND)
 
 BUNDLE_DISPLAY_NAME = Firebase
-BUNDLE_IDENTIFIER = com.mendix.native.template
+BUNDLE_IDENTIFIER = com.mansystems.firebase.mobile
 
 RUNTIME_URL = http:\/\/localhost:8080
