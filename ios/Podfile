@@ -58,6 +58,8 @@ target 'nativeTemplate' do
 
   pod 'RNFBCrashlytics', :path => '../node_modules/@react-native-firebase/crashlytics'
 
+  pod 'RNFBPerf', :path => '../node_modules/@react-native-firebase/perf'
+
 end
 
 target 'dev' do
