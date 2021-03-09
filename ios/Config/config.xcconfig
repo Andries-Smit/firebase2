@@ -4,3 +4,5 @@ BUNDLE_DISPLAY_NAME = Firebase
 BUNDLE_IDENTIFIER = com.mansystems.firebase.mobile
 
 RUNTIME_URL = http:\/\/localhost:8080
+
+PRODUCT_NAME = Firebase
